@@ -29,5 +29,7 @@ print("I am", name, "and", age, "years old.")
 #    print("Sorry!You are not eligible here.")
 
 # float input
-x = float(input("Enter a temperature:"))
-print(x)
+# x = float(input("Enter a temperature:"))
+# print(x)
+# power
+print(age**2)
