@@ -7,3 +7,6 @@ print("The percentage of failed students :", format((failed/total)*100, ".3f"), 
 # Auto percentage formatting
 print(format((passed/total), "%"), " of passed students.")
 print(format((failed/total), "%"), " of failed students.")
+# Removing floating point in percentage
+print(format((passed/total), ".0%"), " of passed students.")
+print(format((failed/total), ".0%"), " of failed students.")
