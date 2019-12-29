@@ -10,3 +10,6 @@ print(format((failed/total), "%"), " of failed students.")
 # Removing floating point in percentage
 print(format((passed/total), ".0%"), " of passed students.")
 print(format((failed/total), ".0%"), " of failed students.")
+# .2%
+print(format((passed/total), ".2%"), " of passed students.")
+print(format((failed/total), ".2%"), " of failed students.")
