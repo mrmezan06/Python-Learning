@@ -1,5 +1,7 @@
-x = 21
-if x == 12:
-    print("it is 12")
+x = 10
+if x < 10:
+    print("Less than 10")
+elif 10 <= x <= 20:
+    print("between 10 to 20")
 else:
-    print("it is not 12")
+    print("outside the bound")
