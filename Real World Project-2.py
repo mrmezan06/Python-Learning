@@ -6,3 +6,5 @@ sum = x1 + x2 + x3
 avg = sum / 3
 print("The average marks:", int(avg))
 print("The average marks:", avg)
+# Formatting the float value
+print("The average marks:", format(avg, '.2f'))
